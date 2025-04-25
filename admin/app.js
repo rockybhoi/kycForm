@@ -22,6 +22,10 @@ app.use(cors(
 
 app.use(express.urlencoded({ extended: true }));
 
+app.use('/', (req, res) => {
+    res.send('Welcome to the KYC API');
+});
+
 
 app.use('/api/user', userRouter);
 
