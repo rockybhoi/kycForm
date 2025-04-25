@@ -1,1 +1,1 @@
-export const DBNAME = 'kyc-form';
+export const DBNAME = 'wishlist';
